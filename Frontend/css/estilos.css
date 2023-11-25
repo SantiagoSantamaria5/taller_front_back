@@ -1,0 +1,84 @@
+/* Reset de márgenes y rellenos para el cuerpo y la lista */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo básico para el cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #4285f4;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los formularios */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilo para los campos de formulario */
+fieldset {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los botones */
+input[type="button"],
+button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #34a853;
+}
+
+/* Hover sobre los botones */
+input[type="button"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

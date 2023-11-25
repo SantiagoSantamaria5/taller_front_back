@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Taller Microservicios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Microservicios - Taller</h1>
+    </header>
+    <section>
+        <h2>Formulario de Docente</h2>
+        <form id="formDocente">
+            <fieldset>
+                <label>Código del Docente:</label>
+                <input type="number" id="docenteCodigo" required>
+            </fieldset>
+            <fieldset>
+                <label>Nombre del Docente:</label>
+                <input type="text" id="docenteNombre" required>
+            </fieldset>
+            <fieldset>
+                <label>Ocupación del Docente:</label>
+                <input type="text" id="idOcupacion" required>
+            </fieldset>
+            <fieldset>
+                <label>Curso del Docente:</label>
+                <input type="number" id="docenteCurso" required>
+            </fieldset>
+            <input type="button" id="registroBtnDocentes" value="Agregar Docente">
+            <button id="registroBtnDocentes">Registro de Docente</button>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="js/docentes.js"></script>
+        </form>
+    </section>
+    <section>
+        <h2>Formulario de Cursos</h2>
+        <form id="formCursos">
+            <fieldset>
+                <label>Nombre del Curso:</label>
+                <input type="text" id="cursoNombre" required>
+            </fieldset>
+            <fieldset>
+                <label>Código del Estudiante:</label>
+                <input type="number" id="estudianteCodigo" required>
+            </fieldset>
+            <fieldset>
+                <label>Código del Curso:</label>
+                <input type="number" id="cursoCodigo" required>
+            </fieldset>
+            <input type="submit" value="Registrar">
+            <input type="button" id="registroBtnCursos" value="Agregar Curso">
+            <button id="registroBtnCursos">Registro del Curso</button>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="js/cursos.js"></script>
+        </form>
+    </section>
+    <section>
+        <h2>Formulario de Ocupaciones</h2>
+        <form id="formCursos">
+            <fieldset>
+                <label>Id de la ocupación</label>
+                <input type="text" id="cursoNombre" required>
+            </fieldset>
+            <fieldset>
+                <label>Nombre de la Ocupación:</label>
+                <input type="number" id="estudianteCodigo" required>
+            </fieldset>
+            <input type="submit" value="RegistrarOcupacion">
+            <input type="button" id="registroBtnOcupaciones" value="Agregar Ocupacion">
+            <button id="registroBtnOcupaciones">Registro de la ocupación</button>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="js/ocupaciones.js"></script>
+        </form>
+    </section>
+</body>
+</html>
